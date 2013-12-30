@@ -1,6 +1,6 @@
 # QCoverage README
 
-# What does it do?
+## What does it do?
 
 It is a simple Qt GUI application, that helps to visualize graph coverage criteria (in software testing).
 
@@ -15,20 +15,20 @@ Generally speaking it is a bit friendlier version of (this webapp)[http://cs.gmu
 
 DISCLAIMER: I don't have any affiliation with the authors.
 
-# Caveat
+## Caveat
 
 The prime path coverage seems to be different than the one produced by other algorithms. From what I've learned it seems
 that the coverage is correct but the prime path criteria are not unambiguous thus diferrent algorithms are possible.
 
 Keep in mind that the algorithm was developed overnight and it may contain bugs.
 
-# How to build the app?
+## How to build the app?
 
 The app was tested with Qt4. In the main directory run `qmake` then `make`.
 
 ## LICENSE
 
-Copyright &copy; 2011 Filip Sobalski <pinkeen@gmail.com>
+Copyright &copy; 2010 Filip Sobalski <pinkeen@gmail.com>
 QCoverage - an application for demonstrating graph coverage criteria
 
 This file is part of QCoverage.
